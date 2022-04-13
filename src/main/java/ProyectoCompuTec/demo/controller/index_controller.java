@@ -1,13 +1,23 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package ProyectoCompuTec.demo.controller;
 
-/**
- *
- * @author XPC
- */
+import ProyectoCompuTec.demo.service.Computec_service;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+@Slf4j
+
 public class index_controller {
+    @Autowired
     
+    private Computec_service computec_service;
+    
+    //@GetMapping("/")
+    
+    //@GetMapping("/login")
+    
+    //@GetMapping("/registro")
 }
